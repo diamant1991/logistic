@@ -1,0 +1,135 @@
+.header{
+	height: 105px;
+	padding-top: 25px;
+	
+	a{
+		&:hover{
+			color: $red;
+		}	
+	}
+	
+}
+.logo{
+	&__text{
+		font-family: $asemibold;
+		color: #da2824;
+		text-transform: uppercase;
+		font-size: 11px;
+		width: 65px;
+		margin-left: 10px;
+		line-height: 1.4;
+		position: relative;
+		top: -2px;
+	}
+}
+.phone{
+	line-height: 1;
+
+	&__info{
+		font-size: 11px;
+		color: rgba(0,0,0,0.5);
+	}
+	&__number{
+		font-size: 27px;
+		font-family: $asemibold;
+	}
+}
+.menu{
+	li{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 10px;
+
+		a{
+			font-size: 14px;
+			color: #000;
+		}
+	}
+}
+.city{
+	&__title{
+		font-size: 11px;
+		color: rgba(0,0,0,0.5);
+		margin-bottom: 5px;
+	}
+	&__item{
+		font-size: 14px;
+	}
+}
+.enter{
+	line-height: 1.4;
+
+	&__link{
+		display: block;
+		color: #000;
+		font-size: 14px;
+	}
+}
+.profile{
+	&__count{
+		position: absolute;
+		z-index: 2;
+		border-radius: 50%;
+		color: #fff;
+		width: 15px;
+		height: 15px;
+		background: $red;
+		display: block;
+		font-size: 11px;
+		text-align: center;
+		line-height: 15px;
+		right: -6px;
+		top: -6px;
+	}
+	&__btn{
+		position: relative;
+		margin: 0 12px;
+	}
+}
+.compare-link{
+	width: 18px;
+	height: 19px;
+	background: url(../images/compare.png)no-repeat;
+}
+.wishlist-link{
+	width: 16px;
+	height: 19px;
+	background: url(../images/wishlist.png)no-repeat;
+}
+.basket-link{
+	width: 23px;
+	height: 21px;
+	background: url(../images/cart.png)no-repeat;
+}
+
+.fixed-menu{
+	position: fixed;
+	z-index: 20;
+	bottom: 70px;
+	left: 50px;
+	font-family: $asemibold;
+	font-size: 16px;
+	text-transform: uppercase;
+
+	a{
+		color: rgba(255,255,255,0.5);
+
+		&:hover{
+			color: #fff;
+		}
+	}
+	li{
+		+ li{
+			margin-top: 15px;
+		}
+	}
+	&.black{
+		a{
+			color: rgba(0,0,0,0.5);
+
+			&:hover{
+				color: #000;
+			}
+		}
+	}
+}

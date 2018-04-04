@@ -1,0 +1,26 @@
+.btn{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	font-family: $asemibold;
+	height: 45px;
+	line-height: 44px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+
+	&-red{
+		color: #fff;
+		background: #ea2c27;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 50px;
+		text-transform: uppercase;
+	}
+	&-submit{
+		min-width: 230px;
+		text-align: center;
+		height: 50px;
+		line-height: 48px;
+	}
+}

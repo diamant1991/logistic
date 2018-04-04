@@ -1,0 +1,66 @@
+.stock{
+	margin-top: 110px;
+	position: relative;
+
+	&__info{
+
+		&__title{
+			font-size: 80px;
+			font-family: $abold;
+			color: $red;
+			margin-bottom: 10px;
+		}
+		&__item{
+			+ div{
+				margin-top: 30px;
+			}
+		}
+	}
+	&__footer{
+		margin-top: 70px;
+		max-width: 250px;
+
+		h4{
+			font-family: $abold;
+		}
+		p{
+			color: #999;
+		}
+	}
+}
+.left-arrow{
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	background: url(../images/arrow_left.png)no-repeat;
+}
+.right-arrow{
+	width: 17px;
+	height: 16px;
+	cursor: pointer;
+	background: url(../images/arrow_right.png)no-repeat;
+}
+.page{
+	margin-top: 20px;
+
+	&__number{
+		font-size: 22px;
+		margin: 0 15px;
+		font-family: $abold;
+	}
+}
+.stock-header{
+	max-width: 620px;
+}
+.slider-paging-number li:nth-child(1n+2){ display:none; }
+.slider-paging-number{
+	opacity: 0;
+	visibility: hidden;
+}
+// .page--stock{
+// 	position: absolute;
+// 	z-index: 2;
+// 	left: 50%;
+// 	bottom: 50px;
+// 	margin-left: 110px;
+// }

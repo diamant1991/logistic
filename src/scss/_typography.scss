@@ -1,0 +1,38 @@
+body{
+	font-family: $roboto;
+	font-size: 16px;
+	line-height: 1.2;
+}
+h1{
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: $abold;
+	line-height: 1;
+	margin-bottom: 40px;
+}
+h2{
+	text-transform: uppercase;
+	font-family: $abold;
+	font-size: 40px;
+	line-height: 1;
+	margin-bottom: 25px;
+}
+h4{
+	font-size: 22px;
+	font-family: $asemibold;
+	margin-bottom: 10px;
+	line-height: 1.2;
+}
+.block{
+	font-size: 14px;
+	padding: 70px 0;
+
+	p{
+		line-height: 1.5;
+		margin-bottom: 10px;
+	}
+}
+img{
+	max-width: 100%;
+	height: auto;
+}

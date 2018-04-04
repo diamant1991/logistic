@@ -1,0 +1,26 @@
+.partners{
+	&__content{
+		max-width: 740px;
+	}
+	&__header{
+		margin-bottom: 100px;
+	}
+	&__img{
+		height: 85px;
+		line-height: 85px;
+
+		img{
+			vertical-align: middle;
+			filter: grayscale(100%);
+			opacity: 0.5;
+
+			&:hover{
+				filter: grayscale(0);
+				opacity: 1;
+			}
+		}
+	}
+	&__list{
+		margin-bottom: 100px;
+	}
+}

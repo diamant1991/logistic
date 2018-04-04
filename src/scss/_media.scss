@@ -1,0 +1,277 @@
+
+@media(max-width: 1500px){
+	.city{
+		display: none;
+	}
+}
+@media(max-width: 1199px){
+	.hidden-lg{
+		display: none;
+	}
+	.container--small,
+	.container--middle{
+		padding-left: 125px;
+	}
+	.stock__info__title{
+		font-size: 64px;
+	}
+	.services__info{
+		padding-left: 0;
+	}
+	.footer__item--right{
+		width: 450px;
+		margin-top: 55px;
+		margin-left: 210px;
+	}
+	.footer-right-item{
+		display: inline-block;
+		vertical-align: top;
+
+		+ div{
+			margin-left: 60px;
+		}
+	}
+	.footer-top{
+		padding-bottom: 40px;
+	}
+}
+@media(min-width: 992px){
+	.sidebar{
+		display: none;
+	}
+}
+@media(max-width: 991px){
+	.fixed-menu{
+		display: none;
+	}
+	.fixed-menu{
+		position: absolute;
+		top: 105px;
+		left: 0;
+		bottom: auto;
+		background: #ed433f;
+    width: 215px;
+    padding: 15px;
+	}
+	.fixed-menu a{
+		color: #fff;
+	}
+	.header{
+		padding-left: 80px;
+	}
+	.sidebar{
+		height: auto;
+		position: absolute;
+	}
+	.container--small, 
+	.container--middle{
+		padding-left: 15px;
+	}
+	.hidden-md{
+		display: none;
+	}
+	.footer__item--right{
+		margin-left: 0;
+	}
+}
+@media(max-width: 767px){
+	.hidden-sm{
+		display: none;
+	}
+	.modal-content{
+		padding: 20px;
+	}
+	.fixed-menu{
+		top: 65px;
+	}
+	.d-inline-block.hidden-sm{
+		display: none !important;
+	}
+	.header{
+		padding-left: 65px;
+		height: 65px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.sidebar__btn{
+		width: 60px;
+		height: 65px;
+		line-height: 65px;
+	}
+	h1{
+		font-size: 60px;
+	}
+	.banner{
+		height: calc(100vh - 65px);
+	}
+	.logo{
+		width: 85px;
+		position: relative;
+		top: 5px;
+	}
+	.stock{
+		margin-top: 50px;
+	}
+	.stock__info__title{
+		font-size: 40px;
+	}
+	.block{
+		padding: 50px 0;
+	}
+	.partners__header{
+		margin-bottom: 50px;
+	}
+	.partners__list{
+		margin-bottom: 50px;
+	}
+	.services__img{
+		margin-top: 40px;
+	}
+	.services__list{
+		margin: 35px 0;
+	}
+	.price-table{
+		display: block;
+		
+		thead{
+			display: none;
+		}
+		td,
+		tr,
+		.tbody{
+			display: block;
+		}
+		tr{
+			padding: 20px 0;
+			border-top: 1px solid #e2e2e2;
+
+			&:last-child{
+				border-bottom: 1px solid #e2e2e2;
+			}
+		}
+		td{
+			border: 0;
+			padding: 0;
+
+			&:last-child{
+				color: #999999;
+				margin-top: 10px;
+			}
+		}
+		.price-inner{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+		.price-inner td:first-child{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	.price-table td:first-child{
+		width: 100%;
+	}
+	.contacts__item{
+		width: 100%;
+
+		 + div{
+		 		margin-top: 35px;
+		 }
+	}
+	.gps__name{
+		font-size: 22px;
+	}
+	.map{
+		height: 320px;
+	}
+	.form-wrapp{
+		width: 290px;
+		margin: auto;
+	}
+	.footer__item__content{
+		display: none;
+	}
+	.footer__item{
+		width: 100%;
+		border-bottom: 1px solid #e2e2e2;
+	}
+	.footer__item--right{
+		margin-top: 0;
+	}
+	.footer-right-item{
+		display: block;
+		margin-left: 0 !important;
+	}
+	.footer h4.footer-btn{
+		padding: 25px 0;
+		cursor: pointer;
+		margin-bottom: 0;
+		position: relative;
+
+		&:after{
+			content: "\f107";
+			display: inline-block;
+	    font: normal normal normal 14px/1 FontAwesome;
+	    font-size: inherit;
+	    text-rendering: auto;
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	    position: absolute;
+	    z-index: 2;
+	    right: 0;
+	    top: 50%;
+	    transform: translate(0,- 50%);
+	    font-size: 18px;
+		}
+	}
+	.footer-bottom{
+		 > div{
+		 	width: 100%;
+
+		 	+div{
+		 		margin-top: 30px;
+		 	}
+		 }
+	}
+	.footer__social{
+		margin-bottom: 40px;
+	}
+	.footer h4.footer-title-right{
+		padding: 0;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.footer__item--right{
+		border: 0;
+		margin-top: 25px;
+	}
+	.footer-top{
+		padding-top: 10px;
+	}
+	.footer-bottom{
+		padding: 35px 0;
+	}
+	.banner__contacts{
+		margin-top: 35px;
+	}
+	.stock__footer{
+		margin-top: 35px;
+	}
+}
+@media(max-width: 575px){
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	.block{
+		padding: 40px 0;
+	}
+	.profile__btn{
+		margin: 0 5px;
+	}
+	.btn-red{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

@@ -1,0 +1,36 @@
+.price{
+	&__content{
+		max-width: 700px;
+	}
+}
+
+.price-table{
+	width: 100%;
+	font-size: 14px;
+	
+	thead{
+		td{
+			color: #999999;
+		}
+	}
+	td{
+		padding: 20px 0;
+		border-bottom: 1px solid #e2e2e2;
+		vertical-align: middle;
+
+		&:first-child{
+			width: 82%;
+		}
+	}
+	table{
+		width: 100%;
+	}
+}
+.price-inner{
+	td{
+		&:first-child{
+			padding-left: 35px;
+			padding-right: 35px;
+		}
+	}
+}

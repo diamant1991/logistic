@@ -1,0 +1,17 @@
+.map{
+	height: 520px;
+	background: url(../images/map.jpg)no-repeat 50%;
+	background-size: cover;
+	position: relative;
+}
+.marker{
+	width: 32px;
+	height: 44px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	background: url(../images/marker.png)no-repeat;
+}
