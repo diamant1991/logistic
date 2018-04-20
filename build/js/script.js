@@ -46,3 +46,17 @@ $('.sidebar__btn').click(function(e) {
     $(this).find('.hamburger-box').removeClass('is-active')
   }
 });
+
+if(window.matchMedia('(max-width: 767px)').matches){
+  $('.footer-btn').click(function(event) {
+    var content = $(this).next()
+    if(content.is(":hidden")){
+      content.slideDown(250)
+      $(this).addClass('active')
+    }
+    else{
+      content.slideUp(250)
+      $(this).removeClass('active')
+    }
+  });
+}

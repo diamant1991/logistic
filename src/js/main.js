@@ -5,3 +5,5 @@ $(window).scroll(function () {
 		$('.fixed-menu').removeClass("black");
 	}
 });
+
+

@@ -197,6 +197,7 @@
 	}
 	.footer__item__content{
 		display: none;
+		padding-bottom: 25px;
 	}
 	.footer__item{
 		width: 100%;
@@ -229,6 +230,11 @@
 	    top: 50%;
 	    transform: translate(0,- 50%);
 	    font-size: 18px;
+		}
+		&.active{
+			&:after{
+				transform: translate(0,- 50%) rotate(180deg);
+			}
 		}
 	}
 	.footer-bottom{

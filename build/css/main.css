@@ -3727,7 +3727,8 @@ img {
   background-position: 50%;
   position: relative;
   color: #fff;
-  font-size: 14px; }
+  font-size: 14px;
+  min-height: 550px; }
   .banner:before {
     content: "";
     display: block;
@@ -4320,7 +4321,8 @@ img {
     width: 290px;
     margin: auto; }
   .footer__item__content {
-    display: none; }
+    display: none;
+    padding-bottom: 25px; }
   .footer__item {
     width: 100%;
     border-bottom: 1px solid #e2e2e2; }
@@ -4352,6 +4354,12 @@ img {
            -o-transform: translate(0, -50%);
               transform: translate(0, -50%);
       font-size: 18px; }
+    .footer h4.footer-btn.active:after {
+      -webkit-transform: translate(0, -50%) rotate(180deg);
+         -moz-transform: translate(0, -50%) rotate(180deg);
+          -ms-transform: translate(0, -50%) rotate(180deg);
+           -o-transform: translate(0, -50%) rotate(180deg);
+              transform: translate(0, -50%) rotate(180deg); }
   .footer-bottom > div {
     width: 100%; }
     .footer-bottom > div + div {
